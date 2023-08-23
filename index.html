@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+    <section class="calc">
+        <form >
+            <input type="text" class="screen" id="result" placeholder="0">
+        </form>
+        <div class="buttons">
+            <button type="button" class=" btn btn-grey ac" data-num="" onclick="reset()">AC</button>
+            <!-- <button type="button" class=" btn btn-grey" data-num="-"onclick="cancel()"><span>C</span></button> -->
+            <button type="button" class=" btn btn-grey" data-num="%"onclick="display('%')">%</button>
+
+            <button type="button" class=" btn btn-orange" data-num="/"onclick="display('/')">&#247;</button>
+
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('7')">7</button>
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('8')">8</button>
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('9')">9</button>
+
+            <button type="button" class=" btn btn-orange" data-num="*"onclick="display('*')">&#215;</button>
+
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('4')">4</button>
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('5')">5</button>
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('6')">6</button>
+
+            <button type="button" class=" btn btn-orange" data-num="*"onclick="display('-')">−</button>
+
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('1')">1</button>
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('2')">2</button>
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('3')">3</button>
+
+            <button type="button" class=" btn btn-orange" data-num="*"onclick="display('+')">+</button>
+
+            <button type="button" class=" btn btn-black zero" data-num=""onclick="display('0')">0</button>
+            <button type="button" class=" btn btn-black" data-num=""onclick="display('.')">.</button>
+
+            <button type="button" class=" btn btn-orange" data-num="*" onclick="calculate()">=</button>
+
+
+
+
+
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</bblack
+</html>
